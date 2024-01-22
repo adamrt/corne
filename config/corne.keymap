@@ -49,6 +49,30 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <1 13>;
+        };
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <2 3>;
+        };
+
+        LeftParen {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <19 20>;
+        };
+
+        RightParen {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <21 22>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
