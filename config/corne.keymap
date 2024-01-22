@@ -69,7 +69,27 @@
 
         RightParen {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <21 22>;
+            key-positions = <21 20>;
+        };
+
+        LeftBracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <31 32>;
+        };
+
+        RightBracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 33>;
+        };
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <3 4>;
+        };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <14 15>;
         };
     };
 
